@@ -2,14 +2,14 @@
 # typing-game
 
 ## Technologies used
-* Flask
+* Python/Flask
 * Flask_sqlalchemy
-* Css/Sass
+* css/sass
 * JS Dom
 
 ## Overview
 
-The idea of this game is not mine. I got inspired by [WSpeed](https://bisqwit.iki.fi/wspeed/) and made a web version of it.
+This game's concept was not my own. [WSpeed](https://bisqwit.iki.fi/wspeed/) served as my inspiration for creating my own version.
 
 ![alt text](https://github.com/GiorgioRR/typing-game/blob/master/data/leaderboard.png)
 ![alt text](https://github.com/GiorgioRR/typing-game/blob/master/data/gameplay.png)

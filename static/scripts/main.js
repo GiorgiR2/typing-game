@@ -20,13 +20,11 @@ const save_data = (score_v) => {
 
 
 const done = () => {
-    console.log("fuck u");
-
     if ( !finish ) {
         var score_v = document.getElementById("score").textContent.split(" ")[1];
         var html =
         `<div class="save">
-            <h2 class="margin">Do you want to fcking save your score? (${score_v})</h2>
+            <h2 class="margin">Do you want to save your score? (${score_v})</h2>
     
             <h2 class="margin">UserName:</h2>
             <input class="margin" id="user-n" type="text">
@@ -36,7 +34,7 @@ const done = () => {
             <h2 class="margin">Email:</h2>
             <input class="margin" id="email-n" type="text">
     
-            <a><button class="save-b" onclick=save_data(${score_v})>save</button></a>
+            <a class="save-b" onclick=save_data(${score_v})>save</a>
         </div>`;
         document.getElementById("body").innerHTML += html;  // document.write(html);
 
